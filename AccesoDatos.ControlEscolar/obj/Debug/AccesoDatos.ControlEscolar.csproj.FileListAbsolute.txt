@@ -1,0 +1,46 @@
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csprojAssemblyReference.cache
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CoreCompileInputs.cache
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CopyComplete
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.dll
+D:\escritorio\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\AccesoDatos.ControlEscolar\obj\Debug\AccesoDatos.ControlEscolar.pdb

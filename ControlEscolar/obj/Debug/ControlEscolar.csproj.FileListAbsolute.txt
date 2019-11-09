@@ -1,0 +1,112 @@
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+D:\escritorio\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Users\zocre\Music\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\UiProject.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmprofesor.resources
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmmaterias.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\UiProject.pdb
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmmaterias.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmProfesor.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmescuela.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmlogo.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\UiProject.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmescuela.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmmaterias.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmProfesor.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb

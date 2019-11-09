@@ -1,0 +1,23 @@
+CREAR UN MODULO AL SISTEMA C¿DE CONTROL ESCOLAR LLAMADO ESCUELA EL CUAL PRESENTE LOS SIGUIENTES DATOS
+Nombre de la escuela
+rfc escuela
+el domicilio
+numero de telefono
+correo de contacto
+pagina web
+Nombre del director 
+Logo de la escuela 
+
+estos datos se almacenaran en una tabla llamada escuela en la cual sola mente permitira
+un solo registro el cual puede ser modificado a
+consideracion en el guardado del logo 
+se debe agregar un pickture, agregar un boton para seleccionar la imagen y otro para
+quitar la imagen
+
+si el usuario da click en guardado esta registrara en la base de datos el nombre 
+de la imagen con la  estencion jpg o png. la ruta por defecto sera una carpeta llamada logo creada
+automaticamente donde se encuentre el ejecutable de la aplicacion
+no deben aceptarse imagenes mañores a 5megas si el usuairo selecciona una imagen mayor
+cancelar la accion y mandar un mensaje no es posible agregar imagenes mayor a 5megas todo cambio debe rea
+lizarse en el momento que se le de guardar al formulario si se llega a cancelar a pesar de tener una imagen
+en el picture box esta no debe guardarse 

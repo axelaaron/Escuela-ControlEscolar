@@ -1,0 +1,24 @@
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Music\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Music\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.pdb

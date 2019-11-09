@@ -1,0 +1,60 @@
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\5semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\MySql.Data.dll
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csprojAssemblyReference.cache
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CoreCompileInputs.cache
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CopyComplete
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.dll
+D:\escritorio\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Music\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\LogicaNegocio.ControlEscolar\obj\Debug\LogicaNegocio.ControlEscolar.pdb
