@@ -110,3 +110,5 @@ C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Con
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmAsignaturas.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmcalificaiones.resources

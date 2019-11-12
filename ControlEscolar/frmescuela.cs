@@ -18,7 +18,7 @@ namespace ControlEscolar
         private OpenFileDialog _imagenJpg;
         private OpenFileDialog _imagenPng;
         private string _ruta;
-        private Escuela _escuela;
+        //private Escuela _escuela;
         public frmescuela()
         {
             InitializeComponent();
@@ -75,7 +75,7 @@ namespace ControlEscolar
         }
         private void guardarusuario()
         {
-            _EscuelaManejador.Guardar(_escuela);
+            //_EscuelaManejador.Guardar(_escuela);
         }
         private void btnNuevo_Click(object sender, EventArgs e)
         {

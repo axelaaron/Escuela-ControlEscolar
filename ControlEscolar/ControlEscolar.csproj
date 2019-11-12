@@ -65,6 +65,18 @@
     <Compile Include="frmAlumnos.Designer.cs">
       <DependentUpon>frmAlumnos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAsignaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAsignaturas.Designer.cs">
+      <DependentUpon>FrmAsignaturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmcalificaiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmcalificaiones.Designer.cs">
+      <DependentUpon>Frmcalificaiones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmescuela.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAlumnos.resx">
       <DependentUpon>frmAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAsignaturas.resx">
+      <DependentUpon>FrmAsignaturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmcalificaiones.resx">
+      <DependentUpon>Frmcalificaiones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmescuela.resx">
       <DependentUpon>frmescuela.cs</DependentUpon>

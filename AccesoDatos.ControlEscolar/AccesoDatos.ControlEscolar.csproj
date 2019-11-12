@@ -50,6 +50,7 @@
     <Compile Include="EscuelaAccesoDatos.cs" />
     <Compile Include="EstadoAccesoDatos.cs" />
     <Compile Include="MateriaAccesoDatos.cs" />
+    <Compile Include="MateriasDOSAccesoDatos.cs" />
     <Compile Include="MunicipioAccesoDatos.cs" />
     <Compile Include="ProfesorAccesoDatos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -52,5 +52,17 @@ namespace ControlEscolar
             frmescuela el = new frmescuela();
             el.ShowDialog();
         }
+
+        private void materiasToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FrmAsignaturas AS = new FrmAsignaturas();
+            AS.ShowDialog();
+        }
+
+        private void calificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Frmcalificaiones cal = new Frmcalificaiones();
+            //cal.ShowDialog();
+        }
     }
 }

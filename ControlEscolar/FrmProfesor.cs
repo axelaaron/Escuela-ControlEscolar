@@ -64,7 +64,7 @@ namespace ControlEscolar
             _estadosmanejador.GetEstados(cmbestados);
         }
 
-        public void getID(string filtro)
+        /*public void getID(string filtro)
         {
             cmbid.DataSource = _profesormanejador.idprofesor(filtro);
             cmbid.DisplayMember = "Nextincremento";
@@ -77,7 +77,7 @@ namespace ControlEscolar
             {
                 lblid2.Text = "D" + cmbanio.Text + 1 + cmbid.Text;
             }
-        }
+        }*/
         private void Buscarprofesor(string filtro)
         {
             dgvProfesor.DataSource = _profesormanejador.GetProfesors(filtro);
@@ -176,7 +176,7 @@ namespace ControlEscolar
             controlarbotones(false, true, true, false);
 
             lblid.Text = dgvProfesor.CurrentRow.Cells["id"].Value.ToString();
-            lblid2.Text = dgvProfesor.CurrentRow.Cells["idincrementable"].Value.ToString();
+            //lblid2.Text = dgvProfesor.CurrentRow.Cells["idincrementable"].Value.ToString();
             txtnumcont.Text = dgvProfesor.CurrentRow.Cells["numerocontrol"].Value.ToString();
             txtnom.Text = dgvProfesor.CurrentRow.Cells["nombre"].Value.ToString();
             txtap.Text = dgvProfesor.CurrentRow.Cells["apellidop"].Value.ToString();
@@ -186,7 +186,7 @@ namespace ControlEscolar
             cmbciudades.Text = dgvProfesor.CurrentRow.Cells["ffkmunicipios"].Value.ToString();
             txtnumced.Text = dgvProfesor.CurrentRow.Cells["numerocedula"].Value.ToString();
             txttitulo.Text = dgvProfesor.CurrentRow.Cells["titulo"].Value.ToString();
-            dtpfecha.Text = dgvProfesor.CurrentRow.Cells["fechanaci"].Value.ToString();
+            //dtpfecha.Text = dgvProfesor.CurrentRow.Cells["fechanaci"].Value.ToString();
            
 
 
@@ -211,7 +211,7 @@ namespace ControlEscolar
 
         private void cmbanio_SelectedIndexChanged(object sender, EventArgs e)
         {
-            getID(cmbanio.Text);
+            //getID(cmbanio.Text);
         }
         public void iDD()
         {
@@ -236,6 +236,7 @@ namespace ControlEscolar
             {
 
                 txtnumcont.Text = "D" + dtp1.Value.ToString("yyyy") + "1";
+             
             }
            
         }
@@ -243,6 +244,13 @@ namespace ControlEscolar
         private void dtp1_ValueChanged(object sender, EventArgs e)
         {
             iDD();
+        }
+
+        
+
+        private void txtnumcont_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

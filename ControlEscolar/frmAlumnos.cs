@@ -163,13 +163,13 @@ namespace ControlEscolar
             controlarbotones(false, true, true, false);
 
             lblnum.Text = dgvalumnos.CurrentRow.Cells["numcontrol"].Value.ToString();
-            lblnombre.Text = dgvalumnos.CurrentRow.Cells["nombre"].Value.ToString();
-            lblap.Text = dgvalumnos.CurrentRow.Cells["apellidopaterno"].Value.ToString();
-            lblam.Text = dgvalumnos.CurrentRow.Cells["apellidomaterno"].Value.ToString();
-            dtpfecha.Text = dgvalumnos.CurrentRow.Cells["fechadenacimiento"].Value.ToString();
-            lbldom.Text = dgvalumnos.CurrentRow.Cells["domicilio"].Value.ToString();
-            lblemail.Text = dgvalumnos.CurrentRow.Cells["email"].Value.ToString();
-            lblsex.Text = dgvalumnos.CurrentRow.Cells["sexo"].Value.ToString();
+            txtnom.Text = dgvalumnos.CurrentRow.Cells["nombre"].Value.ToString();
+            txtap.Text = dgvalumnos.CurrentRow.Cells["apellidopaterno"].Value.ToString();
+            txtam.Text = dgvalumnos.CurrentRow.Cells["apellidomaterno"].Value.ToString();
+            //dtpfecha.Text = dgvalumnos.CurrentRow.Cells["fechadenacimiento"].Value.ToString();
+            txtdom.Text = dgvalumnos.CurrentRow.Cells["domicilio"].Value.ToString();
+            txtemail.Text = dgvalumnos.CurrentRow.Cells["email"].Value.ToString();
+            txtsexo.Text = dgvalumnos.CurrentRow.Cells["sexo"].Value.ToString();
             cmbestados.Text = dgvalumnos.CurrentRow.Cells["fkestados"].Value.ToString();
             cmbciudades.Text = dgvalumnos.CurrentRow.Cells["fkmunicipios"].Value.ToString();
 
