@@ -16,10 +16,14 @@ namespace ControlEscolar
     public partial class FrmProfesor : Form
     {
         private ProfesorManejador _profesormanejador;
+        private MateriaDosManejador _materiaDosManejador;
+        private GrupoManejador _GrupoManejador;
         public FrmProfesor()
         {
             InitializeComponent();
             _profesormanejador = new ProfesorManejador();
+            _materiaDosManejador = new MateriaDosManejador();
+            _GrupoManejador = new GrupoManejador();
         }
         private void controlarbotones(bool nuevo, bool guardar, bool cancelar, bool eliminar)
         {
@@ -43,7 +47,6 @@ namespace ControlEscolar
         {
             lblid.Text = "0";
             txtnumcont.Text = "";
-           
             txtnom.Text = "";
             txtap.Text = "";
             txtam.Text = "";
@@ -62,6 +65,11 @@ namespace ControlEscolar
             limpiarcuadros();
             EstadosManejador _estadosmanejador = new EstadosManejador();
             _estadosmanejador.GetEstados(cmbestados);
+
+            MateriaDosManejador _materiaDosManejador = new MateriaDosManejador();
+            _materiaDosManejador.Getmateriados(cmbmaterias);
+
+            _GrupoManejador.GetGrupos2(cmbgrupos);
         }
 
         /*public void getID(string filtro)
@@ -111,7 +119,6 @@ namespace ControlEscolar
             _profesormanejador.Guardar(new Profesor
             {
                 Id = Convert.ToInt32(lblid.Text),
-                Idprofesor = Convert.ToInt32(lblid2.Text),
                 Numerocontrol = txtnumcont.Text,
                 Nombre = txtnom.Text,
                 Apellidopaterno = txtap.Text,
@@ -121,7 +128,10 @@ namespace ControlEscolar
                 Municipio = cmbciudades.Text,
                 Numerocedula = Convert.ToInt32(txtnumced.Text),
                 Titulo = txttitulo.Text,
-                Fechadenacimiento = dtp1.Text
+                Fechadenacimiento = dtp1.Text,
+                Materia = cmbmaterias.Text,
+                Grupo = cmbgrupos.Text
+                
 
             }
                 );
@@ -176,7 +186,6 @@ namespace ControlEscolar
             controlarbotones(false, true, true, false);
 
             lblid.Text = dgvProfesor.CurrentRow.Cells["id"].Value.ToString();
-            //lblid2.Text = dgvProfesor.CurrentRow.Cells["idincrementable"].Value.ToString();
             txtnumcont.Text = dgvProfesor.CurrentRow.Cells["numerocontrol"].Value.ToString();
             txtnom.Text = dgvProfesor.CurrentRow.Cells["nombre"].Value.ToString();
             txtap.Text = dgvProfesor.CurrentRow.Cells["apellidop"].Value.ToString();
@@ -186,8 +195,10 @@ namespace ControlEscolar
             cmbciudades.Text = dgvProfesor.CurrentRow.Cells["ffkmunicipios"].Value.ToString();
             txtnumced.Text = dgvProfesor.CurrentRow.Cells["numerocedula"].Value.ToString();
             txttitulo.Text = dgvProfesor.CurrentRow.Cells["titulo"].Value.ToString();
-            //dtpfecha.Text = dgvProfesor.CurrentRow.Cells["fechanaci"].Value.ToString();
-           
+            cmbmaterias.Text = dgvProfesor.CurrentRow.Cells["fkmateria"].Value.ToString();
+            cmbgrupos.Text = dgvProfesor.CurrentRow.Cells["fkgrupos"].Value.ToString();
+
+
 
 
         }
@@ -251,6 +262,23 @@ namespace ControlEscolar
         private void txtnumcont_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btngrupo_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Grupo grup = new Grupo();
+            grup.ShowDialog();
+        }
+
+        private void btnmt_Click(object sender, EventArgs e)
+        {
+            FrmAsignaturas asi = new FrmAsignaturas();
+            asi.ShowDialog();
         }
     }
 }

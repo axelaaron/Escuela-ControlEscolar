@@ -2,7 +2,6 @@ create database practica;
 use practica;
 drop table profesor;
 create table profesor(id int primary key AUTO_INCREMENT,
-idincrementable int,
 numerocontrol varchar(40),
 nombre varchar(40),
 apellidop varchar(40),
@@ -12,8 +11,13 @@ fkestados varchar(40),
 fkmunicipios varchar(200),
 numerocedula int,
 titulo varchar(40),
-fechanaci varchar(40));
+fechanaci varchar(40),
+fkmateria varchar(50),
+fkgrupo varchar(50));
 
+
+select * from profesor;
+describe profesor;
 select * from escuela;
 
 drop table estudios;
@@ -25,7 +29,7 @@ nombredelarchivo varchar(300),
 foreign key(fkprofesor) references profesor(id));
 
 select * from profesor;
-drop table escuela;
+drop table escuela2;
 create table escuela(idescuela int primary key  auto_increment,
 nombreescuela varchar(50),
 rfc varchar(50),
@@ -36,22 +40,120 @@ paginaweb varchar(200),
 nombredirector varchar(50),
 logo varchar(50));
 
-create table escuela2(idescuela int primary key  auto_increment,
-nombreescuela varchar(50),
-rfc varchar(50),
-domicilio varchar(50),
-telefono varchar(50),
-correo varchar(50),
-paginaweb varchar(200),
-nombredirector varchar(50),
-logo varchar(50));
+create table Materias(idmateria int primary key auto_increment,
+nombremateria varchar(100),
+horast int, 
+horasp int,
+carrera varchar(100), 
+semestre varchar(100)
+);
+
+drop table materiasdos;
+create table MateriasDOS(id int primary key auto_increment, 
+idmateriados  varchar(50),
+nombre varchar(50),
+horast int,
+horasp int,
+fkmateriaanterior varchar(50),
+fkmateriaquesigue varchar(50),
+semestre int,
+creditos int
+);
 
 
 
 
 
+drop view mostrar;
+create view mostrar as
+select alumnos.nombre, nombremateria,carrera,semestre , profesor.nombre as "profesor" ,creditos from alumnos,
+materias, profesor ,calificaciones where numcontrol = fknumcontrol and id = fkidasignatura and idmateria = fkidmateria;
 
 
+
+
+
+create table incremento(idincremento int primary key auto_increment, 
+nombre varchar (100), 
+materias varchar(100));
+
+
+create view v_materiasdo as 
+select id, idmateriados as 'ClaveMateria', nombre, horast as 'HorasTeoria', horasp as 'HorasPractica',  
+fkmateriaanterior as 'MateriaAnterior', fkmateriaquesigue as 'MateriaSiguiente', semestre as 'Semestre', creditos,
+(materiasdos.horast + materiasdos.horasp) as 'Creditos' from materiasdos;
+
+select * from v_materiasdop;
+drop view v_materiasdo;
+
+create view v_materiasd as 
+select id, idmateriados as 'ClaveMateria', nombre, horast as 'HorasTeoria', horasp as 'HorasPractica',  
+fkmateriaanterior as 'MateriaAnterior', fkmateriaquesigue as 'MateriaSiguiente', semestre as 'Semestre',
+(materiasdos.horast + materiasdos.horasp) as 'Creditos' from materiasdos;
+
+create view v_materiasdop as 
+select id, idmateriados as 'ClaveMateria', nombre, horast as 'HorasTeoria', horasp as 'HorasPractica',  
+fkmateriaanterior as 'MateriaAnterior', fkmateriaquesigue as 'MateriaSiguiente', semestre as 'Semestre', creditos,
+(materiasdos.horast + materiasdos.horasp) as 'Total' from materiasdos;
+
+
+
+/**create view v_materias as
+select Id, Idmateria as 'Clavedemateria', nombre, horasteoria as 'Horasdeteoria', horaspractica as 'Horasdepractica',
+fkrelantes as 'MateriaAnterior', fkreldespues as 'Materiaquesigue', semestre, 
+(materias.horasteoria + materias.horaspractica) as 'Creditos'  
+from materias;*/
+
+#region calificaciones
+drop table calificaciones;
+create TABLE calificaciones(idcalificaciones int primary key AUTO_INCREMENT,
+nombre varchar(50),
+apellidopaterno varchar(50),
+apellidomaterno varchar(50),
+materias varchar(50), 
+parcialuno double,
+parcialdos double,
+parcialtres double,
+parcialcuatro double);
+
+
+describe calificaciones;
+drop View v_calificaciones;
+create View v_Calificaciones as 
+select id as 'ID',
+calificaciones.nombrealumno as 'Nombre_del_alumno',
+calificaciones.apellidopaterno as 'Apellido_Paterno',
+calificaciones.apellidomaterno as 'Apellido_Materno',
+materiasdos.nombre as 'Nombre_Materias',
+parcialuno as 'Parcial_Uno',
+parcialdos as 'Parcial_Dos',
+parcialtres as 'Parcial_Tres',
+parcialcuatro as 'Parcial_Cuatro', 
+((parcialuno + parcialdos + parcialtres + parcialcuatro) / 4) as 'Promedio'
+from  materiasdos, calificaciones
+where  calificaciones.fkmaterias = materiasdos.id;
+
+
+drop View v_Calificaciones2;
+create View v_Calificaciones2 as 
+select id as 'ID',
+alumnos.nombre as 'Nombre_del_alumno',
+materiasdos.nombre as 'Nombre_Materias',
+parcialuno as 'Parcial_Uno',
+parcialdos as 'Parcial_Dos',
+parcialtres as 'Parcial_Tres',
+parcialcuatro as 'Parcial_Cuatro', 
+((parcialuno + parcialdos + parcialtres + parcialcuatro) / 4) as 'Promedio'
+from alumnos,  materiasdos, calificaciones
+where calificaciones.fkalumnos = alumnos.numcontrol and calificaciones.fkmaterias = materiasdos.id;
+
+insert into calificaciones values(null,'lola','perez','lopez',4,9,10,10,9);
+select * from v_calificaciones;
+
+select * from calificaciones;
+
+#end region
+select * from materiasdos;
 
 #region alumnos
 create table usuario(
@@ -62,7 +164,7 @@ ApellidoMaterno varchar(50),
 Contrasenia varchar(50));
 drop table alumnos;
 
-
+drop table alumnos;
 create table alumnos(
 numcontrol int primary key AUTO_INCREMENT,
 nombre varchar(50),
@@ -74,11 +176,57 @@ email varchar(50),
 sexo varchar(50),
 fkestados varchar(50),
 fkmunicipios varchar(200),
-foreign key (fkestados) references estados(codigo)
+fkgrupo int,
+foreign key (fkestados) references estados(codigo),
+foreign key (fkgrupo) references grupos(idgrupo) on delete cascade on update cascade
 );
+describe alumnos;
+alter table alumnos drop fkgrupo;
+show create table alumnos;
+alter table alumnos add fkgrupo int;
+alter table alumnos add Constraint foreign key(fkgrupo) references grupos(idgrupo);
+
+drop view v_alumnos;
+create view v_alumnos as
+select numcontrol,
+alumnos.nombre as 'Nombre_del_alumno',
+apellidopaterno as 'Apellido_paterno',
+apellidomaterno as 'Apellido_materno',
+fechadenacimiento as 'Fecha_de_nacimiento',
+domicilio as 'Domicilio',
+email as 'Email',
+sexo as 'Sexo',
+fkestados as 'Estado',
+fkmunicipios as 'Municipio',
+grupos.grupo as 'Grupo' from alumnos,grupos where
+alumnos.fkgrupo = grupos.idgrupo;
+select * from v_alumnos;
+select * from alumnos;
+select * from grupos;
+insert into alumnos values(null,'juan','capetillo','gomez','hola','alv','hombre.com','hombre','JAL','LagosdeMoreno',1);
+drop view v_alumnos;
+
+describe alumnos;
+select * from alumnos;
+drop table grupos;
+
+create table grupos(
+idgrupo int primary key AUTO_INCREMENT,
+grupo varchar(200));
+
+#region asignacion
+create table asignacion(idasignacion int primary key AUTO_INCREMENT,
+fkprofesro varchar(100),
+fkmateria varchar(100),
+fkgrupo varchar(100));
+
+select * from profesor;
+#end region
+
 #end region 
 #region tablas pais
 
+drop table estados;
 create table estados(
 codigo varchar (200) primary key,
 nombre varchar (200));
@@ -91,6 +239,7 @@ insert into estados values('AGU','Aguascalientes'),('BCN','Baja California'),('B
 ('VER','Veracruz'),('YUC','Yucatán'),('ZAC','Zacatecas');
 #end region
 
+drop table municipios;
 create table municipios(
 codigomunicipios int primary key AUTO_INCREMENT,
 nombre varchar (200), 
@@ -1510,6 +1659,7 @@ insert into municipios values(null,'Balancán','TAB'),
 (null,'Teapa','TAB'),
 (null,'Tenosique','TAB')
 #end region
+
 
 
 describe profesor;

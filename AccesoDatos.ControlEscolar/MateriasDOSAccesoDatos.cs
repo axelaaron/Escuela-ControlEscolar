@@ -99,6 +99,60 @@ namespace AccesoDatos.ControlEscolar
             return listmateriasdos;
 
         }
+        public List<MateriaDos> Getmateriados(ComboBox cm)
+        {
+            var listmateria = new List<MateriaDos>();
+            var ds = new DataSet();
+            string consulta = "select nombre from materiasdos ";
+            ds = conexion.ObtenerDatos(consulta, "materiasdos");
+            cm.DataSource = ds.Tables[0];
+            cm.DisplayMember = "nombre";
+            var dt = new DataTable();
+            dt = ds.Tables[0];
+
+            foreach (DataRow row in dt.Rows)
+            {
+                var materias = new MateriaDos
+                {
+
+                    Nombre = row["nombre"].ToString(),
+
+
+
+                };
+                listmateria.Add(materias);
+            }
+            return listmateria;
+        }
+        public List<MateriaDos> Getmate(string filtro)
+        {
+            var listmateria = new List<MateriaDos>();
+            var ds = new DataSet();
+            string consulta = "select * from materiasdos where nombre like '%" + filtro + "%'";
+            ds = conexion.ObtenerDatos(consulta, "materiasdos");
+            var dt = new DataTable();
+            dt = ds.Tables[0];
+
+            foreach (DataRow row in dt.Rows)
+            {
+                var materias = new MateriaDos
+                {
+                    Id = Convert.ToInt32(row["id"]),
+                    Idmaterias = row["idmateriados"].ToString(),
+                    Nombre = row["nombre"].ToString(),
+                    Horast = Convert.ToInt32(row["horast"]),
+                    Horasp = Convert.ToInt32(row["horasp"]),
+                    Fkmateriaanterior = row["fkmateriaanterior"].ToString(),
+                    Fkmateriaquesigue = row["fkmateriaquesigue"].ToString(),
+                    Semestre = Convert.ToInt32(row["semestre"]),
+                    Creditos = Convert.ToInt32(row["creditos"].ToString())
+
+
+                };
+                listmateria.Add(materias);
+            }
+            return listmateria;
+        }
     }
 
 }

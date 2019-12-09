@@ -8,16 +8,24 @@ namespace Entidades.ControlEscolar
 {
     public class Calificaciones
     {
-        private int _idcalificaiones;
-        private int _fknumcontrol;
-        private int _fkidasignatura;
-        private int _fkidmateria;
-        private int _creditos;
+        private int idcalificacion;
+        private string nombre;
+        private string apellidopaterno;
+        private string apellidomaterno;
+        private string materia;
+        private double parcialuno;
+        private double parcialdos;
+        private double parcialtres;
+        private double parcialcuatro;
 
-        public int Idcalificaiones { get => _idcalificaiones; set => _idcalificaiones = value; }
-        public int Fknumcontrol { get => _fknumcontrol; set => _fknumcontrol = value; }
-        public int Fkidasignatura { get => _fkidasignatura; set => _fkidasignatura = value; }
-        public int Fkidmateria { get => _fkidmateria; set => _fkidmateria = value; }
-        public int Creditos { get => _creditos; set => _creditos = value; }
+        public int Idcalificacion { get => idcalificacion; set => idcalificacion = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Apellidopaterno { get => apellidopaterno; set => apellidopaterno = value; }
+        public string Apellidomaterno { get => apellidomaterno; set => apellidomaterno = value; }
+        public string Materia { get => materia; set => materia = value; }
+        public double Parcialuno { get => parcialuno; set => parcialuno = value; }
+        public double Parcialdos { get => parcialdos; set => parcialdos = value; }
+        public double Parcialtres { get => parcialtres; set => parcialtres = value; }
+        public double Parcialcuatro { get => parcialcuatro; set => parcialcuatro = value; }
     }
 }

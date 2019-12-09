@@ -14,10 +14,12 @@ namespace ControlEscolar
     public partial class frmAlumnos : Form
     {
         private AlumnoManejador _alumnoManejador;
+        private GrupoManejador _grupoManejador;
         public frmAlumnos()
         {
             InitializeComponent();
             _alumnoManejador = new AlumnoManejador();
+            _grupoManejador = new GrupoManejador();
         }
         private void controlarbotones(bool nuevo, bool guardar, bool cancelar, bool eliminar)
         {
@@ -58,10 +60,13 @@ namespace ControlEscolar
             limpiarcuadros();
             EstadosManejador _estadosmanejador = new EstadosManejador();
             _estadosmanejador.GetEstados(cmbestados);
+
+            GrupoManejador _grupomanejador = new GrupoManejador();
+            _grupomanejador.GetGrupos2(cmbgrupo);
         }
         private void Buscaralumno(string filtro)
         {
-            dgvalumnos.DataSource = _alumnoManejador.GetAlumnos(filtro);
+            dgvalumnos.DataSource = _alumnoManejador.GetAlumnos2(filtro);
         }
 
         private void btnnuevo_Click(object sender, EventArgs e)
@@ -100,9 +105,10 @@ namespace ControlEscolar
                 Domicilio = txtdom.Text,
                 Email = txtemail.Text,
                 Sexo = txtsexo.Text,
-                Fkestados=cmbestados.Text,
-                Fkmunicipios=cmbciudades.Text
-                
+                Fkestados = cmbestados.Text,
+                Fkmunicipios = cmbciudades.Text,
+                Fkgrupo = cmbgrupo.SelectedValue.ToString()
+
 
 
             }
@@ -172,6 +178,7 @@ namespace ControlEscolar
             txtsexo.Text = dgvalumnos.CurrentRow.Cells["sexo"].Value.ToString();
             cmbestados.Text = dgvalumnos.CurrentRow.Cells["fkestados"].Value.ToString();
             cmbciudades.Text = dgvalumnos.CurrentRow.Cells["fkmunicipios"].Value.ToString();
+            cmbgrupo.Text = dgvalumnos.CurrentRow.Cells["fkgrupo"].Value.ToString();
 
         }
 
@@ -184,6 +191,27 @@ namespace ControlEscolar
         private void cmbciudades_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btngrupo_Click(object sender, EventArgs e)
+        {
+            
+        }
+        public void codigo(string filtro)
+        {
+            cmbgrupo.DataSource = _grupoManejador.GetGrupos(filtro);
+            cmbgrupo.ValueMember = "idgrupo";
+            cmbgrupo.DisplayMember = "grupo";
+        }
+
+        private void cmbgrupo_Click(object sender, EventArgs e)
+        {
+            codigo("");
+        }
+
+        private void cmbgrupo_SelectedValueChanged(object sender, EventArgs e)
+        {
+            //codigo("");
         }
     }
 }

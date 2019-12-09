@@ -85,7 +85,6 @@ C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\bin\Debug\UiProject.pdb
 C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmmaterias.resources
 C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmProfesor.resources
 C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmescuela.resources
-C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmlogo.resources
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
@@ -111,4 +110,66 @@ C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Con
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmAsignaturas.resources
-C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmcalificaiones.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Asignaciones.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Grupo.resources
+C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.CalificacionesUno.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\UiProject.pdb
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Asignaciones.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.CalificacionesUno.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmAsignaturas.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmescuela.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmmaterias.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmProfesor.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Grupo.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Users\zocre\Downloads\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.dll
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.dll
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\MySql.Data.dll
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\LogicaNegocio.ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\UiProject.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\bin\Debug\AccesoDatos.ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Asignaciones.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmUsuario.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmAlumnos.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmAsignaturas.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmescuela.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Frmmaterias.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.frmpantallaescolar.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmProfesor.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Grupo.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CopyComplete
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmCalificaciones.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Asignaciones.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmAsignaturas.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.FrmCalificaciones.resources
+C:\Users\zocre\Desktop\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Grupo.resources

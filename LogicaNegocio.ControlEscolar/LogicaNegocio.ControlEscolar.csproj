@@ -43,8 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlumnoManejador.cs" />
+    <Compile Include="AsignacionManejador.cs" />
+    <Compile Include="CalificacionesManejador.cs" />
     <Compile Include="EscuelaManejador.cs" />
     <Compile Include="EstadosManejador.cs" />
+    <Compile Include="GrupoManejador.cs" />
     <Compile Include="MateriaDosManejador.cs" />
     <Compile Include="MateriaManejador.cs" />
     <Compile Include="MunicipiosManejador.cs" />

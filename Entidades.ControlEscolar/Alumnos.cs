@@ -18,6 +18,7 @@ namespace Entidades.ControlEscolar
         private string _sexo;
         private string _fkestados;
         private string _fkmunicipios;
+        private string _fkgrupo;
 
         public int Numcontrol { get => _numcontrol; set => _numcontrol = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
@@ -29,5 +30,6 @@ namespace Entidades.ControlEscolar
         public string Sexo { get => _sexo; set => _sexo = value; }
         public string Fkestados { get => _fkestados; set => _fkestados = value; }
         public string Fkmunicipios { get => _fkmunicipios; set => _fkmunicipios = value; }
+        public string Fkgrupo { get => _fkgrupo; set => _fkgrupo = value; }
     }
 }

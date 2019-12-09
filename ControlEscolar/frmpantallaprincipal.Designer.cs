@@ -39,6 +39,9 @@
             this.materiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.gruposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,10 +64,14 @@
             this.alumnosToolStripMenuItem,
             this.profesorToolStripMenuItem,
             this.escuelaToolStripMenuItem,
-            this.materiasToolStripMenuItem});
+            this.materiasToolStripMenuItem,
+            this.gruposToolStripMenuItem,
+            this.asignacionesToolStripMenuItem,
+            this.calificacionesToolStripMenuItem});
             this.catalagoToolStripMenuItem.Name = "catalagoToolStripMenuItem";
-            this.catalagoToolStripMenuItem.Size = new System.Drawing.Size(182, 29);
+            this.catalagoToolStripMenuItem.Size = new System.Drawing.Size(94, 29);
             this.catalagoToolStripMenuItem.Text = "Catalago";
+            this.catalagoToolStripMenuItem.Click += new System.EventHandler(this.catalagoToolStripMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 
@@ -124,6 +131,30 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // gruposToolStripMenuItem
+            // 
+            this.gruposToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("gruposToolStripMenuItem.Image")));
+            this.gruposToolStripMenuItem.Name = "gruposToolStripMenuItem";
+            this.gruposToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.gruposToolStripMenuItem.Text = "Grupos";
+            this.gruposToolStripMenuItem.Click += new System.EventHandler(this.gruposToolStripMenuItem_Click);
+            // 
+            // asignacionesToolStripMenuItem
+            // 
+            this.asignacionesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("asignacionesToolStripMenuItem.Image")));
+            this.asignacionesToolStripMenuItem.Name = "asignacionesToolStripMenuItem";
+            this.asignacionesToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.asignacionesToolStripMenuItem.Text = "Asignaciones";
+            this.asignacionesToolStripMenuItem.Click += new System.EventHandler(this.asignacionesToolStripMenuItem_Click_1);
+            // 
+            // calificacionesToolStripMenuItem
+            // 
+            this.calificacionesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("calificacionesToolStripMenuItem.Image")));
+            this.calificacionesToolStripMenuItem.Name = "calificacionesToolStripMenuItem";
+            this.calificacionesToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.calificacionesToolStripMenuItem.Text = "Calificaciones";
+            this.calificacionesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesToolStripMenuItem_Click_2);
+            // 
             // frmpantallaescolar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -153,5 +184,8 @@
         private System.Windows.Forms.ToolStripMenuItem escuelaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem materiasToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem gruposToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem asignacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calificacionesToolStripMenuItem;
     }
 }

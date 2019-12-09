@@ -41,7 +41,18 @@ namespace LogicaNegocio.ControlEscolar
             return listasignatura;
 
         }
+        public List<MateriaDos> Getmateriados(ComboBox cm)
+        {
+            var listgp = MateriasDOSAccesoDatos.Getmateriados(cm);
 
+            return listgp;
+        }
+        public List<MateriaDos> Getmate(string filtro)
+        {
+            var listgpos = MateriasDOSAccesoDatos.Getmate(filtro);
+
+            return listgpos;
+        }
 
     }
 }

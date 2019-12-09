@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProfesor));
             this.txtnom = new System.Windows.Forms.TextBox();
             this.txtap = new System.Windows.Forms.TextBox();
@@ -60,7 +60,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtnumcont = new System.Windows.Forms.TextBox();
-            this.lblid2 = new System.Windows.Forms.Label();
+            this.lblMateria = new System.Windows.Forms.Label();
+            this.lblGrupo = new System.Windows.Forms.Label();
+            this.cmbmaterias = new System.Windows.Forms.ComboBox();
+            this.cmbgrupos = new System.Windows.Forms.ComboBox();
+            this.btnmt = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProfesor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -175,7 +180,7 @@
             // cmbestados
             // 
             this.cmbestados.FormattingEnabled = true;
-            this.cmbestados.Location = new System.Drawing.Point(447, 238);
+            this.cmbestados.Location = new System.Drawing.Point(129, 238);
             this.cmbestados.Name = "cmbestados";
             this.cmbestados.Size = new System.Drawing.Size(121, 28);
             this.cmbestados.TabIndex = 8;
@@ -184,7 +189,7 @@
             // cmbciudades
             // 
             this.cmbciudades.FormattingEnabled = true;
-            this.cmbciudades.Location = new System.Drawing.Point(743, 238);
+            this.cmbciudades.Location = new System.Drawing.Point(398, 238);
             this.cmbciudades.Name = "cmbciudades";
             this.cmbciudades.Size = new System.Drawing.Size(121, 28);
             this.cmbciudades.TabIndex = 9;
@@ -194,7 +199,7 @@
             // 
             this.lblestado.AutoSize = true;
             this.lblestado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblestado.Location = new System.Drawing.Point(348, 246);
+            this.lblestado.Location = new System.Drawing.Point(52, 246);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(60, 20);
             this.lblestado.TabIndex = 50;
@@ -204,7 +209,7 @@
             // 
             this.lblmunicipio.AutoSize = true;
             this.lblmunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmunicipio.Location = new System.Drawing.Point(615, 246);
+            this.lblmunicipio.Location = new System.Drawing.Point(287, 246);
             this.lblmunicipio.Name = "lblmunicipio";
             this.lblmunicipio.Size = new System.Drawing.Size(75, 20);
             this.lblmunicipio.TabIndex = 50;
@@ -214,7 +219,7 @@
             // 
             this.dtpfecha.AutoSize = true;
             this.dtpfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpfecha.Location = new System.Drawing.Point(675, 39);
+            this.dtpfecha.Location = new System.Drawing.Point(640, 9);
             this.dtpfecha.Name = "dtpfecha";
             this.dtpfecha.Size = new System.Drawing.Size(159, 20);
             this.dtpfecha.TabIndex = 50;
@@ -223,7 +228,7 @@
             // lblid
             // 
             this.lblid.AutoSize = true;
-            this.lblid.Location = new System.Drawing.Point(188, 310);
+            this.lblid.Location = new System.Drawing.Point(309, 313);
             this.lblid.Name = "lblid";
             this.lblid.Size = new System.Drawing.Size(18, 20);
             this.lblid.TabIndex = 50;
@@ -231,32 +236,32 @@
             // 
             // dtp1
             // 
-            this.dtp1.Location = new System.Drawing.Point(644, 62);
+            this.dtp1.Location = new System.Drawing.Point(644, 32);
             this.dtp1.Name = "dtp1";
-            this.dtp1.Size = new System.Drawing.Size(200, 26);
+            this.dtp1.Size = new System.Drawing.Size(310, 26);
             this.dtp1.TabIndex = 51;
             this.dtp1.ValueChanged += new System.EventHandler(this.dtp1_ValueChanged);
             // 
             // dgvProfesor
             // 
             this.dgvProfesor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProfesor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProfesor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvProfesor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProfesor.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvProfesor.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvProfesor.Location = new System.Drawing.Point(73, 353);
             this.dgvProfesor.Name = "dgvProfesor";
             this.dgvProfesor.RowTemplate.Height = 28;
@@ -268,7 +273,7 @@
             // 
             this.btnNuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNuevo.BackgroundImage")));
             this.btnNuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnNuevo.Location = new System.Drawing.Point(291, 593);
+            this.btnNuevo.Location = new System.Drawing.Point(291, 569);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(88, 71);
             this.btnNuevo.TabIndex = 53;
@@ -279,7 +284,7 @@
             // 
             this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnGuardar.Location = new System.Drawing.Point(447, 593);
+            this.btnGuardar.Location = new System.Drawing.Point(447, 569);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(88, 71);
             this.btnGuardar.TabIndex = 53;
@@ -290,7 +295,7 @@
             // 
             this.btnCancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelar.BackgroundImage")));
             this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCancelar.Location = new System.Drawing.Point(619, 593);
+            this.btnCancelar.Location = new System.Drawing.Point(619, 569);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(88, 71);
             this.btnCancelar.TabIndex = 53;
@@ -301,7 +306,7 @@
             // 
             this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
             this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnEliminar.Location = new System.Drawing.Point(756, 593);
+            this.btnEliminar.Location = new System.Drawing.Point(756, 569);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(88, 71);
             this.btnEliminar.TabIndex = 53;
@@ -310,11 +315,11 @@
             // 
             // btnestudios
             // 
-            this.btnestudios.Location = new System.Drawing.Point(962, 225);
+            this.btnestudios.Location = new System.Drawing.Point(1030, 32);
             this.btnestudios.Name = "btnestudios";
-            this.btnestudios.Size = new System.Drawing.Size(118, 47);
+            this.btnestudios.Size = new System.Drawing.Size(118, 65);
             this.btnestudios.TabIndex = 55;
-            this.btnestudios.Text = "Estudios";
+            this.btnestudios.Text = "Asignar Estudios";
             this.btnestudios.UseVisualStyleBackColor = true;
             this.btnestudios.Click += new System.EventHandler(this.btnestudios_Click);
             // 
@@ -340,20 +345,65 @@
             // 
             // txtnumcont
             // 
-            this.txtnumcont.Location = new System.Drawing.Point(641, 125);
+            this.txtnumcont.Location = new System.Drawing.Point(644, 80);
             this.txtnumcont.Name = "txtnumcont";
-            this.txtnumcont.Size = new System.Drawing.Size(251, 26);
+            this.txtnumcont.Size = new System.Drawing.Size(310, 26);
             this.txtnumcont.TabIndex = 1;
             this.txtnumcont.TextChanged += new System.EventHandler(this.txtnumcont_TextChanged);
             // 
-            // lblid2
+            // lblMateria
             // 
-            this.lblid2.AutoSize = true;
-            this.lblid2.Location = new System.Drawing.Point(265, 310);
-            this.lblid2.Name = "lblid2";
-            this.lblid2.Size = new System.Drawing.Size(18, 20);
-            this.lblid2.TabIndex = 56;
-            this.lblid2.Text = "0";
+            this.lblMateria.AutoSize = true;
+            this.lblMateria.Location = new System.Drawing.Point(667, 145);
+            this.lblMateria.Name = "lblMateria";
+            this.lblMateria.Size = new System.Drawing.Size(62, 20);
+            this.lblMateria.TabIndex = 56;
+            this.lblMateria.Text = "Materia";
+            // 
+            // lblGrupo
+            // 
+            this.lblGrupo.AutoSize = true;
+            this.lblGrupo.Location = new System.Drawing.Point(667, 209);
+            this.lblGrupo.Name = "lblGrupo";
+            this.lblGrupo.Size = new System.Drawing.Size(54, 20);
+            this.lblGrupo.TabIndex = 57;
+            this.lblGrupo.Text = "Grupo";
+            // 
+            // cmbmaterias
+            // 
+            this.cmbmaterias.FormattingEnabled = true;
+            this.cmbmaterias.Location = new System.Drawing.Point(756, 142);
+            this.cmbmaterias.Name = "cmbmaterias";
+            this.cmbmaterias.Size = new System.Drawing.Size(198, 28);
+            this.cmbmaterias.TabIndex = 58;
+            // 
+            // cmbgrupos
+            // 
+            this.cmbgrupos.FormattingEnabled = true;
+            this.cmbgrupos.Location = new System.Drawing.Point(756, 209);
+            this.cmbgrupos.Name = "cmbgrupos";
+            this.cmbgrupos.Size = new System.Drawing.Size(198, 28);
+            this.cmbgrupos.TabIndex = 59;
+            // 
+            // btnmt
+            // 
+            this.btnmt.Location = new System.Drawing.Point(1030, 105);
+            this.btnmt.Name = "btnmt";
+            this.btnmt.Size = new System.Drawing.Size(118, 60);
+            this.btnmt.TabIndex = 60;
+            this.btnmt.Text = "Asignar Materias";
+            this.btnmt.UseVisualStyleBackColor = true;
+            this.btnmt.Click += new System.EventHandler(this.btnmt_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1030, 180);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 57);
+            this.button1.TabIndex = 61;
+            this.button1.Text = "Asignar Grupo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmProfesor
             // 
@@ -361,7 +411,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1259, 720);
-            this.Controls.Add(this.lblid2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnmt);
+            this.Controls.Add(this.cmbgrupos);
+            this.Controls.Add(this.cmbmaterias);
+            this.Controls.Add(this.lblGrupo);
+            this.Controls.Add(this.lblMateria);
             this.Controls.Add(this.btnestudios);
             this.Controls.Add(this.txtnumcont);
             this.Controls.Add(this.btnEliminar);
@@ -431,6 +486,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtnumcont;
-        private System.Windows.Forms.Label lblid2;
+        private System.Windows.Forms.Label lblMateria;
+        private System.Windows.Forms.Label lblGrupo;
+        private System.Windows.Forms.ComboBox cmbmaterias;
+        private System.Windows.Forms.ComboBox cmbgrupos;
+        private System.Windows.Forms.Button btnmt;
+        private System.Windows.Forms.Button button1;
     }
 }

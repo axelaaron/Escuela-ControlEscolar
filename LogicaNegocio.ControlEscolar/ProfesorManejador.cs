@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entidades.ControlEscolar;
 using AccesoDatos.ControlEscolar;
+using System.Windows.Forms;
 using System.Data;
 
 
@@ -18,7 +19,7 @@ namespace LogicaNegocio.ControlEscolar
             _profesoraccesodatos.Guardar(profesor);
 
         }
-        public void Eliminar (int numcontrol)
+        public void Eliminar(int numcontrol)
         {
             _profesoraccesodatos.Eliminar(numcontrol);
         }
@@ -27,14 +28,20 @@ namespace LogicaNegocio.ControlEscolar
             var listprofe = _profesoraccesodatos.GetProfesors(filtro);
             return listprofe;
         }
-
+        /*
         public DataTable idprofesor(string filtro)
         {
             var dt = _profesoraccesodatos.idprofesor(filtro);
             return dt;
         }
 
+        */
+        public List<Profesor> GetProfesors2(ComboBox cm)
+        {
+            var listgp = _profesoraccesodatos.GetProfesors2(cm);
 
+            return listgp;
 
+        }
     }
 }

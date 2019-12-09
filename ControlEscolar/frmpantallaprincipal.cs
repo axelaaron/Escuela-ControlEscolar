@@ -64,5 +64,38 @@ namespace ControlEscolar
             //Frmcalificaiones cal = new Frmcalificaiones();
             //cal.ShowDialog();
         }
+
+        private void calificacionesToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void asignacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gruposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Grupo gp = new Grupo();
+            gp.ShowDialog();
+        }
+
+        private void asignacionesToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Asignaciones asss = new Asignaciones();
+            asss.ShowDialog();
+        }
+
+        private void calificacionesToolStripMenuItem_Click_2(object sender, EventArgs e)
+        {
+            FrmCalificaciones cl = new FrmCalificaciones();
+            cl.ShowDialog();
+        }
+
+        private void catalagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -267,5 +267,10 @@ namespace ControlEscolar
         {
 
         }
+
+        private void cmbcodigo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

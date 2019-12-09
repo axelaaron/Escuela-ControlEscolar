@@ -92,6 +92,7 @@
             this.cmbcodigo.Name = "cmbcodigo";
             this.cmbcodigo.Size = new System.Drawing.Size(180, 28);
             this.cmbcodigo.TabIndex = 32;
+            this.cmbcodigo.SelectedIndexChanged += new System.EventHandler(this.cmbcodigo_SelectedIndexChanged);
             this.cmbcodigo.Click += new System.EventHandler(this.cmbcodigo_Click);
             // 
             // btnBorrar

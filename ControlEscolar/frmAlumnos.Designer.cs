@@ -56,6 +56,8 @@
             this.lblMunic = new System.Windows.Forms.Label();
             this.cmbestados = new System.Windows.Forms.ComboBox();
             this.cmbciudades = new System.Windows.Forms.ComboBox();
+            this.cmbgrupo = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,7 +91,7 @@
             // lbldom
             // 
             this.lbldom.AutoSize = true;
-            this.lbldom.Location = new System.Drawing.Point(505, 24);
+            this.lbldom.Location = new System.Drawing.Point(466, 24);
             this.lbldom.Name = "lbldom";
             this.lbldom.Size = new System.Drawing.Size(72, 20);
             this.lbldom.TabIndex = 0;
@@ -98,7 +100,7 @@
             // lblsex
             // 
             this.lblsex.AutoSize = true;
-            this.lblsex.Location = new System.Drawing.Point(519, 148);
+            this.lblsex.Location = new System.Drawing.Point(469, 148);
             this.lblsex.Name = "lblsex";
             this.lblsex.Size = new System.Drawing.Size(45, 20);
             this.lblsex.TabIndex = 0;
@@ -107,7 +109,7 @@
             // lblemail
             // 
             this.lblemail.AutoSize = true;
-            this.lblemail.Location = new System.Drawing.Point(516, 79);
+            this.lblemail.Location = new System.Drawing.Point(466, 79);
             this.lblemail.Name = "lblemail";
             this.lblemail.Size = new System.Drawing.Size(48, 20);
             this.lblemail.TabIndex = 0;
@@ -116,7 +118,7 @@
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(936, 248);
+            this.lblfecha.Location = new System.Drawing.Point(455, 270);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(159, 20);
             this.lblfecha.TabIndex = 0;
@@ -125,7 +127,7 @@
             // lblnum
             // 
             this.lblnum.AutoSize = true;
-            this.lblnum.Location = new System.Drawing.Point(162, 312);
+            this.lblnum.Location = new System.Drawing.Point(168, 344);
             this.lblnum.Name = "lblnum";
             this.lblnum.Size = new System.Drawing.Size(18, 20);
             this.lblnum.TabIndex = 0;
@@ -135,47 +137,47 @@
             // 
             this.txtnom.Location = new System.Drawing.Point(51, 47);
             this.txtnom.Name = "txtnom";
-            this.txtnom.Size = new System.Drawing.Size(407, 26);
+            this.txtnom.Size = new System.Drawing.Size(371, 26);
             this.txtnom.TabIndex = 1;
             // 
             // txtam
             // 
             this.txtam.Location = new System.Drawing.Point(51, 171);
             this.txtam.Name = "txtam";
-            this.txtam.Size = new System.Drawing.Size(407, 26);
+            this.txtam.Size = new System.Drawing.Size(371, 26);
             this.txtam.TabIndex = 1;
             // 
             // txtap
             // 
             this.txtap.Location = new System.Drawing.Point(48, 102);
             this.txtap.Name = "txtap";
-            this.txtap.Size = new System.Drawing.Size(407, 26);
+            this.txtap.Size = new System.Drawing.Size(374, 26);
             this.txtap.TabIndex = 1;
             // 
             // txtdom
             // 
-            this.txtdom.Location = new System.Drawing.Point(509, 47);
+            this.txtdom.Location = new System.Drawing.Point(459, 47);
             this.txtdom.Name = "txtdom";
-            this.txtdom.Size = new System.Drawing.Size(407, 26);
+            this.txtdom.Size = new System.Drawing.Size(431, 26);
             this.txtdom.TabIndex = 1;
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(509, 102);
+            this.txtemail.Location = new System.Drawing.Point(459, 102);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(407, 26);
+            this.txtemail.Size = new System.Drawing.Size(431, 26);
             this.txtemail.TabIndex = 1;
             // 
             // txtsexo
             // 
-            this.txtsexo.Location = new System.Drawing.Point(509, 171);
+            this.txtsexo.Location = new System.Drawing.Point(459, 171);
             this.txtsexo.Name = "txtsexo";
-            this.txtsexo.Size = new System.Drawing.Size(407, 26);
+            this.txtsexo.Size = new System.Drawing.Size(431, 26);
             this.txtsexo.TabIndex = 1;
             // 
             // txtbuscar
             // 
-            this.txtbuscar.Location = new System.Drawing.Point(330, 306);
+            this.txtbuscar.Location = new System.Drawing.Point(333, 344);
             this.txtbuscar.Name = "txtbuscar";
             this.txtbuscar.Size = new System.Drawing.Size(421, 26);
             this.txtbuscar.TabIndex = 1;
@@ -184,7 +186,7 @@
             // lblbuscar
             // 
             this.lblbuscar.AutoSize = true;
-            this.lblbuscar.Location = new System.Drawing.Point(494, 271);
+            this.lblbuscar.Location = new System.Drawing.Point(259, 350);
             this.lblbuscar.Name = "lblbuscar";
             this.lblbuscar.Size = new System.Drawing.Size(59, 20);
             this.lblbuscar.TabIndex = 0;
@@ -200,18 +202,18 @@
             // 
             // dtpfecha
             // 
-            this.dtpfecha.Location = new System.Drawing.Point(904, 292);
+            this.dtpfecha.Location = new System.Drawing.Point(637, 270);
             this.dtpfecha.Name = "dtpfecha";
-            this.dtpfecha.Size = new System.Drawing.Size(200, 26);
+            this.dtpfecha.Size = new System.Drawing.Size(253, 26);
             this.dtpfecha.TabIndex = 2;
             // 
             // dgvalumnos
             // 
             this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvalumnos.Location = new System.Drawing.Point(51, 351);
+            this.dgvalumnos.Location = new System.Drawing.Point(51, 397);
             this.dgvalumnos.Name = "dgvalumnos";
             this.dgvalumnos.RowTemplate.Height = 28;
-            this.dgvalumnos.Size = new System.Drawing.Size(1053, 157);
+            this.dgvalumnos.Size = new System.Drawing.Size(853, 157);
             this.dgvalumnos.TabIndex = 3;
             this.dgvalumnos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvalumnos_CellDoubleClick);
             // 
@@ -280,7 +282,7 @@
             // lblMunic
             // 
             this.lblMunic.AutoSize = true;
-            this.lblMunic.Location = new System.Drawing.Point(519, 224);
+            this.lblMunic.Location = new System.Drawing.Point(455, 224);
             this.lblMunic.Name = "lblMunic";
             this.lblMunic.Size = new System.Drawing.Size(75, 20);
             this.lblMunic.TabIndex = 15;
@@ -289,30 +291,51 @@
             // cmbestados
             // 
             this.cmbestados.FormattingEnabled = true;
-            this.cmbestados.Location = new System.Drawing.Point(166, 221);
+            this.cmbestados.Location = new System.Drawing.Point(121, 221);
             this.cmbestados.Name = "cmbestados";
-            this.cmbestados.Size = new System.Drawing.Size(186, 28);
+            this.cmbestados.Size = new System.Drawing.Size(301, 28);
             this.cmbestados.TabIndex = 16;
             this.cmbestados.SelectedIndexChanged += new System.EventHandler(this.cbmestados_SelectedIndexChanged);
             // 
             // cmbciudades
             // 
             this.cmbciudades.FormattingEnabled = true;
-            this.cmbciudades.Location = new System.Drawing.Point(650, 221);
+            this.cmbciudades.Location = new System.Drawing.Point(563, 221);
             this.cmbciudades.Name = "cmbciudades";
-            this.cmbciudades.Size = new System.Drawing.Size(186, 28);
+            this.cmbciudades.Size = new System.Drawing.Size(327, 28);
             this.cmbciudades.TabIndex = 17;
             this.cmbciudades.SelectedIndexChanged += new System.EventHandler(this.cmbciudades_SelectedIndexChanged);
+            // 
+            // cmbgrupo
+            // 
+            this.cmbgrupo.FormattingEnabled = true;
+            this.cmbgrupo.Location = new System.Drawing.Point(183, 268);
+            this.cmbgrupo.Name = "cmbgrupo";
+            this.cmbgrupo.Size = new System.Drawing.Size(239, 28);
+            this.cmbgrupo.TabIndex = 18;
+            this.cmbgrupo.SelectedValueChanged += new System.EventHandler(this.cmbgrupo_SelectedValueChanged);
+            this.cmbgrupo.Click += new System.EventHandler(this.cmbgrupo_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(93, 275);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Grupo";
             // 
             // frmAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1127, 666);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(980, 656);
+            this.Controls.Add(this.cmbgrupo);
             this.Controls.Add(this.cmbciudades);
             this.Controls.Add(this.cmbestados);
             this.Controls.Add(this.lblMunic);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblestados);
             this.Controls.Add(this.btneliminar);
             this.Controls.Add(this.btncancelar);
@@ -375,5 +398,7 @@
         private System.Windows.Forms.Label lblMunic;
         private System.Windows.Forms.ComboBox cmbestados;
         private System.Windows.Forms.ComboBox cmbciudades;
+        private System.Windows.Forms.ComboBox cmbgrupo;
+        private System.Windows.Forms.Label label1;
     }
 }

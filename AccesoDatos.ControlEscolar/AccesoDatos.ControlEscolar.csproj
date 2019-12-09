@@ -46,9 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlumnoAccesoDatos.cs" />
+    <Compile Include="AsignacionAccesoDatos.cs" />
+    <Compile Include="CalificacionesAccesoDatos.cs" />
     <Compile Include="ConexxionAccesoAdatos.cs" />
     <Compile Include="EscuelaAccesoDatos.cs" />
     <Compile Include="EstadoAccesoDatos.cs" />
+    <Compile Include="GrupoAccesoDatos.cs" />
     <Compile Include="MateriaAccesoDatos.cs" />
     <Compile Include="MateriasDOSAccesoDatos.cs" />
     <Compile Include="MunicipioAccesoDatos.cs" />

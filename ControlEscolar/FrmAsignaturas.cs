@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Entidades.ControlEscolar;
 using LogicaNegocio.ControlEscolar;
 
+
 namespace ControlEscolar
 {
     public partial class FrmAsignaturas : Form

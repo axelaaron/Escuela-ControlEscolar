@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades.ControlEscolar;
 using LogicaNegocio.ControlEscolar;
+using Microsoft.Office.Interop.Excel;
 
 namespace ControlEscolar
 {
@@ -178,6 +179,50 @@ namespace ControlEscolar
             txtapellidom.Text = dtgUsuarios.CurrentRow.Cells["ApellidoMaterno"].Value.ToString();
             txtcontrasenia.Text = dtgUsuarios.CurrentRow.Cells["Contrasenia"].Value.ToString();
 
+        }
+
+        private void btnexportar_Click(object sender, EventArgs e)
+        {
+            exportarDataGridviewExcel(dtgUsuarios);
+        }
+        private void exportarDataGridviewExcel(DataGridView dtg1)
+        {
+            try
+            {
+                SaveFileDialog fichero = new SaveFileDialog();
+                fichero.Filter = "Excel (*.xls)|*.xls";
+                if (fichero.ShowDialog() == DialogResult.OK)
+                {
+                    Microsoft.Office.Interop.Excel.Application aplicacion;
+                    Workbook libros_trabajo;
+                    Worksheet hoja_trabajo;
+                    aplicacion = new Microsoft.Office.Interop.Excel.Application();
+                    libros_trabajo = aplicacion.Workbooks.Add();
+                    hoja_trabajo = (Microsoft.Office.Interop.Excel.Worksheet)libros_trabajo.Worksheets.get_Item(1);
+                    for (int i = 0; i < dtg1.Rows.Count; i++)
+                    {
+                        for (int j = 0; j < dtg1.Columns.Count; j++)
+                        {
+                            hoja_trabajo.Cells[i + 1, j + 1] = dtg1.Rows[i].Cells[j].Value.ToString();
+                        }
+                    }
+                    libros_trabajo.SaveAs(fichero.FileName, Microsoft.Office.Interop.Excel.XlFileFormat.xlWorkbookNormal);
+                    libros_trabajo.Close(true);
+                    aplicacion.Quit();
+                    MessageBox.Show("Reporte terminado", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Fallo la creacion de archivo, intenta de nuevo con otro nombre");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

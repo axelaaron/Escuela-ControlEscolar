@@ -46,6 +46,7 @@
             this.lblID = new System.Windows.Forms.Label();
             this.txtbuscar = new System.Windows.Forms.TextBox();
             this.lblbuscar = new System.Windows.Forms.Label();
+            this.btnexportar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -203,11 +204,22 @@
             this.lblbuscar.TabIndex = 13;
             this.lblbuscar.Text = "Buscar";
             // 
+            // btnexportar
+            // 
+            this.btnexportar.Location = new System.Drawing.Point(685, 288);
+            this.btnexportar.Name = "btnexportar";
+            this.btnexportar.Size = new System.Drawing.Size(109, 77);
+            this.btnexportar.TabIndex = 14;
+            this.btnexportar.Text = "Exportar";
+            this.btnexportar.UseVisualStyleBackColor = true;
+            this.btnexportar.Click += new System.EventHandler(this.btnexportar_Click);
+            // 
             // frmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(856, 544);
+            this.Controls.Add(this.btnexportar);
             this.Controls.Add(this.lblbuscar);
             this.Controls.Add(this.txtbuscar);
             this.Controls.Add(this.lblID);
@@ -254,6 +266,7 @@
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.TextBox txtbuscar;
         private System.Windows.Forms.Label lblbuscar;
+        private System.Windows.Forms.Button btnexportar;
     }
 }
 

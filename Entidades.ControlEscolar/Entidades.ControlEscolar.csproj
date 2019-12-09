@@ -42,9 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumnos.cs" />
+    <Compile Include="Asignacion.cs" />
     <Compile Include="Calificaciones.cs" />
     <Compile Include="Escuela.cs" />
     <Compile Include="Estados.cs" />
+    <Compile Include="Grupos.cs" />
     <Compile Include="MateriaDos.cs" />
     <Compile Include="Materias.cs" />
     <Compile Include="Municipios.cs" />

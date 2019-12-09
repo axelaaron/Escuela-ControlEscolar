@@ -22,3 +22,9 @@ C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Ent
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csproj.CoreCompileInputs.cache
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.dll
 C:\Users\zocre\Desktop\tec\5 semestre\Taller de Base De Datos\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Pictures\ControlEscolar\Entidades.ControlEscolar\bin\Debug\Entidades.ControlEscolar.pdb
+C:\Users\zocre\Pictures\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csprojAssemblyReference.cache
+C:\Users\zocre\Pictures\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Users\zocre\Pictures\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.dll
+C:\Users\zocre\Pictures\ControlEscolar\Entidades.ControlEscolar\obj\Debug\Entidades.ControlEscolar.pdb

@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Properties.Resources.Designer.cs">
       <HintPath>..\..\..\..\UiProject\UiProject\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll</HintPath>
     </Reference>
@@ -53,6 +57,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asignaciones.Designer.cs">
+      <DependentUpon>Asignaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,11 +81,11 @@
     <Compile Include="FrmAsignaturas.Designer.cs">
       <DependentUpon>FrmAsignaturas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmcalificaiones.cs">
+    <Compile Include="FrmCalificaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frmcalificaiones.Designer.cs">
-      <DependentUpon>Frmcalificaiones.cs</DependentUpon>
+    <Compile Include="FrmCalificaciones.Designer.cs">
+      <DependentUpon>FrmCalificaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="frmescuela.cs">
       <SubType>Form</SubType>
@@ -101,8 +111,17 @@
     <Compile Include="FrmProfesor.Designer.cs">
       <DependentUpon>FrmProfesor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupo.Designer.cs">
+      <DependentUpon>Grupo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Asignaciones.resx">
+      <DependentUpon>Asignaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,8 +131,8 @@
     <EmbeddedResource Include="FrmAsignaturas.resx">
       <DependentUpon>FrmAsignaturas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frmcalificaiones.resx">
-      <DependentUpon>Frmcalificaiones.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCalificaciones.resx">
+      <DependentUpon>FrmCalificaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmescuela.resx">
       <DependentUpon>frmescuela.cs</DependentUpon>
@@ -127,6 +146,9 @@
     <EmbeddedResource Include="FrmProfesor.resx">
       <DependentUpon>FrmProfesor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Grupo.resx">
+      <DependentUpon>Grupo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -136,6 +158,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
